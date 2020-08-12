@@ -19,7 +19,7 @@ stages {
     }
     stage('Stage-Two'){
         steps{
-            sh "test"
+            echo "hello Flow"
         }
     }
 }

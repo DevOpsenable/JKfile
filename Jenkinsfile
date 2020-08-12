@@ -19,7 +19,7 @@ stages {
     }
     stage('Stage-Two'){
         steps{
-            sh "echo ${BRANCHDEPLOY}"
+            echo "hello Stack"
         }
     }
 }
